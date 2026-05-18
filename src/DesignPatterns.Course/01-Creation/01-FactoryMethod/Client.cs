@@ -18,14 +18,26 @@ public class Client
             Console.WriteLine("3 - Coverage");
 
             Console.Write("Enter the number of the service you wish to bill: ");
-            int serviceType = Convert.ToInt32(Console.ReadLine());
+
+            if (!int.TryParse(Console.ReadLine(), out int serviceType))
+            {
+                Console.WriteLine("Invalid input! Please enter a valid number.\n");
+                continue;
+            }
 
             var productService = serviceSelector.ManufactureProduct((ServiceType)serviceType);
 
             Console.Write("Do you want to calculate another service? (1-Yes or 2-No): ");
-            int response = Convert.ToInt32(Console.ReadLine());
 
-            continueRunning = response == 1;
+            if (int.TryParse(Console.ReadLine(), out int response))
+            {
+                continueRunning = response == 1;
+            }
+            else
+            {
+                Console.WriteLine("Invalid option. Exiting application...");
+                continueRunning = false;
+            }
         }
     }
 }
