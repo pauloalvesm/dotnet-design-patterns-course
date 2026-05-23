@@ -2,6 +2,7 @@
 // using DesignPatterns.Course._01_Creation._02_AbstractFactory;
 // using DesignPatterns.Course._01_Creation._03_Singleton;
 // using DesignPatterns.Course._01_Creation._04_Builder;
+// using DesignPatterns.Course._01_Creation._05_Prototype;
 
 internal class Program
 {
@@ -31,6 +32,13 @@ internal class Program
         #endregion
 
         #region Builder
+
+        //var client = new Client();
+        //client.ConsumeStudioData();
+
+        #endregion
+
+        #region Prototype
 
         //var client = new Client();
         //client.ConsumeStudioData();
