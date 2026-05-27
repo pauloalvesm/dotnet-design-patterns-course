@@ -4,6 +4,7 @@
 // using DesignPatterns.Course._01_Creation._04_Builder;
 // using DesignPatterns.Course._01_Creation._05_Prototype;
 // using DesignPatterns.Course._02_StructuralPatterns._01_Composite;
+// using DesignPatterns.Course._02_StructuralPatterns._02_Decorator;
 
 internal class Program
 {
@@ -50,6 +51,13 @@ internal class Program
 
         //var client = new Client();
         //client.Checkout();
+
+        #endregion
+
+        #region Decorator
+
+        //var client = new Client();
+        //client.ConsumeServices();
 
         #endregion
 
