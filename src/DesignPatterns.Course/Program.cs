@@ -3,6 +3,7 @@
 // using DesignPatterns.Course._01_Creation._03_Singleton;
 // using DesignPatterns.Course._01_Creation._04_Builder;
 // using DesignPatterns.Course._01_Creation._05_Prototype;
+// using DesignPatterns.Course._02_StructuralPatterns._01_Composite;
 
 internal class Program
 {
@@ -42,6 +43,13 @@ internal class Program
 
         //var client = new Client();
         //client.ConsumeStudioData();
+
+        #endregion
+
+        #region Composite
+
+        //var client = new Client();
+        //client.Checkout();
 
         #endregion
 
