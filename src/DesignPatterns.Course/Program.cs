@@ -5,6 +5,7 @@
 // using DesignPatterns.Course._01_Creation._05_Prototype;
 // using DesignPatterns.Course._02_StructuralPatterns._01_Composite;
 // using DesignPatterns.Course._02_StructuralPatterns._02_Decorator;
+// using DesignPatterns.Course._02_StructuralPatterns._03_Facade;
 
 internal class Program
 {
@@ -58,6 +59,13 @@ internal class Program
 
         //var client = new Client();
         //client.ConsumeServices();
+
+        #endregion
+
+        #region Facade
+
+        //var facade = new FacadeManager();
+        //facade.ExecuteComplexity();
 
         #endregion
 
