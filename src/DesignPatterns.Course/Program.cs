@@ -6,6 +6,7 @@
 // using DesignPatterns.Course._02_StructuralPatterns._01_Composite;
 // using DesignPatterns.Course._02_StructuralPatterns._02_Decorator;
 // using DesignPatterns.Course._02_StructuralPatterns._03_Facade;
+// using DesignPatterns.Course._02_StructuralPatterns._04_Proxy;
 
 internal class Program
 {
@@ -66,6 +67,13 @@ internal class Program
 
         //var facade = new FacadeManager();
         //facade.ExecuteComplexity();
+
+        #endregion
+
+        #region Proxy
+
+        // var client = new Client();
+        // client.TryVpnClientConnection();
 
         #endregion
 
