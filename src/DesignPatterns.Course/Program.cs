@@ -7,6 +7,7 @@
 // using DesignPatterns.Course._02_StructuralPatterns._02_Decorator;
 // using DesignPatterns.Course._02_StructuralPatterns._03_Facade;
 // using DesignPatterns.Course._02_StructuralPatterns._04_Proxy;
+// using DesignPatterns.Course._02_StructuralPatterns._05_Flyweight;
 
 internal class Program
 {
@@ -74,6 +75,13 @@ internal class Program
 
         // var client = new Client();
         // client.TryVpnClientConnection();
+
+        #endregion
+
+        #region Flyweight
+
+        //var client = new Client();
+        //client.ConsumeFlyweight();
 
         #endregion
 
