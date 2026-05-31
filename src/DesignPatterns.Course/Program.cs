@@ -9,6 +9,8 @@
 // using DesignPatterns.Course._02_StructuralPatterns._04_Proxy;
 // using DesignPatterns.Course._02_StructuralPatterns._05_Flyweight;
 
+using DesignPatterns.Course._02_StructuralPatterns._06_Adapter;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -82,6 +84,13 @@ internal class Program
 
         //var client = new Client();
         //client.ConsumeFlyweight();
+
+        #endregion
+
+        #region Adapter
+
+        var cloud = new CloudComputing();
+        cloud.ProcessAccounts("September");
 
         #endregion
 
