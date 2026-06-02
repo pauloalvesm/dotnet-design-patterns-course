@@ -3,15 +3,15 @@
 // using DesignPatterns.Course._01_Creation._03_Singleton;
 // using DesignPatterns.Course._01_Creation._04_Builder;
 // using DesignPatterns.Course._01_Creation._05_Prototype;
-// using DesignPatterns.Course._02_StructuralPatterns._01_Composite;
-// using DesignPatterns.Course._02_StructuralPatterns._02_Decorator;
-// using DesignPatterns.Course._02_StructuralPatterns._03_Facade;
-// using DesignPatterns.Course._02_StructuralPatterns._04_Proxy;
-// using DesignPatterns.Course._02_StructuralPatterns._05_Flyweight;
-// using DesignPatterns.Course._02_StructuralPatterns._06_Adapter;
-// using DesignPatterns.Course._02_StructuralPatterns._07_Bridge;
-// using DesignPatterns.Course._02_StructuralPatterns._07_Bridge.Abstractions;
-// using DesignPatterns.Course._02_StructuralPatterns._07_Bridge.Implementations;
+// using DesignPatterns.Course._02_Structural._01_Composite;
+// using DesignPatterns.Course._02_Structural._02_Decorator;
+// using DesignPatterns.Course._02_Structural._03_Facade;
+// using DesignPatterns.Course._02_Structural._04_Proxy;
+// using DesignPatterns.Course._02_Structural._05_Flyweight;
+// using DesignPatterns.Course._02_Structural._06_Adapter;
+// using DesignPatterns.Course._02_Structural._07_Bridge;
+// using DesignPatterns.Course._02_Structural._07_Bridge.Abstractions;
+// using DesignPatterns.Course._02_Structural._07_Bridge.Implementations;
 
 internal class Program
 {
