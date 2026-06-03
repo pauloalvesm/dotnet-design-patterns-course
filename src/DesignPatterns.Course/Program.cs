@@ -12,6 +12,7 @@
 // using DesignPatterns.Course._02_Structural._07_Bridge;
 // using DesignPatterns.Course._02_Structural._07_Bridge.Abstractions;
 // using DesignPatterns.Course._02_Structural._07_Bridge.Implementations;
+using DesignPatterns.Course._03_Behavioral._01_TemplateMethod;
 
 internal class Program
 {
@@ -138,6 +139,13 @@ internal class Program
         //        break;
         //    }
         //}
+
+        #endregion
+
+        #region Templat Method
+
+        var client = new Client();
+        client.ConsumeXmlEndpoint();
 
         #endregion
 
