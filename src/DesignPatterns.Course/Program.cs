@@ -12,7 +12,8 @@
 // using DesignPatterns.Course._02_Structural._07_Bridge;
 // using DesignPatterns.Course._02_Structural._07_Bridge.Abstractions;
 // using DesignPatterns.Course._02_Structural._07_Bridge.Implementations;
-using DesignPatterns.Course._03_Behavioral._01_TemplateMethod;
+// using DesignPatterns.Course._03_Behavioral._01_TemplateMethod;
+// using DesignPatterns.Course._03_Behavioral._02_Interpreter.Jumanji;
 
 internal class Program
 {
@@ -144,8 +145,15 @@ internal class Program
 
         #region Templat Method
 
-        var client = new Client();
-        client.ConsumeXmlEndpoint();
+        //var client = new Client();
+        //client.ConsumeXmlEndpoint();
+
+        #endregion
+
+        #region Interpreter
+
+        //var popupDisplay = new PopupDisplay();
+        //popupDisplay.DisplaySkillsPopup();
 
         #endregion
 
