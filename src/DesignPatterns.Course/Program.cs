@@ -14,6 +14,7 @@
 // using DesignPatterns.Course._02_Structural._07_Bridge.Implementations;
 // using DesignPatterns.Course._03_Behavioral._01_TemplateMethod;
 // using DesignPatterns.Course._03_Behavioral._02_Interpreter.Jumanji;
+// using DesignPatterns.Course._03_Behavioral._03_Observer;
 
 internal class Program
 {
@@ -154,6 +155,13 @@ internal class Program
 
         //var popupDisplay = new PopupDisplay();
         //popupDisplay.DisplaySkillsPopup();
+
+        #endregion
+
+        #region Observer
+
+        //var emailSender = new EmailSender();
+        //emailSender.SendEmails();
 
         #endregion
 
