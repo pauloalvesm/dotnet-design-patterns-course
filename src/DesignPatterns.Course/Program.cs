@@ -15,6 +15,7 @@
 // using DesignPatterns.Course._03_Behavioral._01_TemplateMethod;
 // using DesignPatterns.Course._03_Behavioral._02_Interpreter.Jumanji;
 // using DesignPatterns.Course._03_Behavioral._03_Observer;
+// using DesignPatterns.Course._03_Behavioral._04_Visitor;
 
 internal class Program
 {
@@ -162,6 +163,13 @@ internal class Program
 
         //var emailSender = new EmailSender();
         //emailSender.SendEmails();
+
+        #endregion
+
+        #region Visitor
+
+        //var taxInspector = new TaxInspector();
+        //taxInspector.CalculateTaxes();
 
         #endregion
 
