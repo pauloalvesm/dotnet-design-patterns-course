@@ -16,6 +16,7 @@
 // using DesignPatterns.Course._03_Behavioral._02_Interpreter.Jumanji;
 // using DesignPatterns.Course._03_Behavioral._03_Observer;
 // using DesignPatterns.Course._03_Behavioral._04_Visitor;
+// using DesignPatterns.Course._03_Behavioral._05_Command;
 
 internal class Program
 {
@@ -170,6 +171,13 @@ internal class Program
 
         //var taxInspector = new TaxInspector();
         //taxInspector.CalculateTaxes();
+
+        #endregion
+
+        #region Command
+
+        //var client = new Client();
+        //client.IssueCommands();
 
         #endregion
 
