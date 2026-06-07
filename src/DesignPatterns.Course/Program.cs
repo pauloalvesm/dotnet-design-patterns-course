@@ -17,6 +17,7 @@
 // using DesignPatterns.Course._03_Behavioral._03_Observer;
 // using DesignPatterns.Course._03_Behavioral._04_Visitor;
 // using DesignPatterns.Course._03_Behavioral._05_Command;
+// using DesignPatterns.Course._03_Behavioral._06_Strategy;
 
 internal class Program
 {
@@ -178,6 +179,13 @@ internal class Program
 
         //var client = new Client();
         //client.IssueCommands();
+
+        #endregion
+
+        #region Strategy
+
+        //var serviceTaxRoutine = new ServiceTaxRoutine();
+        //serviceTaxRoutine.ExecuteRoutine();
 
         #endregion
 
