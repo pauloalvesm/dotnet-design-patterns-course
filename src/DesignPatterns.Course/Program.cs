@@ -18,6 +18,7 @@
 // using DesignPatterns.Course._03_Behavioral._04_Visitor;
 // using DesignPatterns.Course._03_Behavioral._05_Command;
 // using DesignPatterns.Course._03_Behavioral._06_Strategy;
+// using DesignPatterns.Course._03_Behavioral._07_ChainOfResponsability;
 
 internal class Program
 {
@@ -186,6 +187,13 @@ internal class Program
 
         //var serviceTaxRoutine = new ServiceTaxRoutine();
         //serviceTaxRoutine.ExecuteRoutine();
+
+        #endregion
+
+        #region Chain Of Responsability
+
+        //var sender = new Sender();
+        //sender.PerformCheckout();
 
         #endregion
 
