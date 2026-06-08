@@ -19,6 +19,7 @@
 // using DesignPatterns.Course._03_Behavioral._05_Command;
 // using DesignPatterns.Course._03_Behavioral._06_Strategy;
 // using DesignPatterns.Course._03_Behavioral._07_ChainOfResponsability;
+// using DesignPatterns.Course._03_Behavioral._08_Iterator;
 
 internal class Program
 {
@@ -194,6 +195,13 @@ internal class Program
 
         //var sender = new Sender();
         //sender.PerformCheckout();
+
+        #endregion
+
+        #region Iterator
+
+        //var client = new Client();
+        //client.ConsumeDataStructure();
 
         #endregion
 
