@@ -20,6 +20,7 @@
 // using DesignPatterns.Course._03_Behavioral._06_Strategy;
 // using DesignPatterns.Course._03_Behavioral._07_ChainOfResponsability;
 // using DesignPatterns.Course._03_Behavioral._08_Iterator;
+// using DesignPatterns.Course._03_Behavioral._10_State;
 
 internal class Program
 {
@@ -202,6 +203,13 @@ internal class Program
 
         //var client = new Client();
         //client.ConsumeDataStructure();
+
+        #endregion
+
+        #region State
+
+        //var client = new Client();
+        //client.ExecuteContext();
 
         #endregion
 
