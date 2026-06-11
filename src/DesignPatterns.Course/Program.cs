@@ -21,6 +21,7 @@
 // using DesignPatterns.Course._03_Behavioral._07_ChainOfResponsability;
 // using DesignPatterns.Course._03_Behavioral._08_Iterator;
 // using DesignPatterns.Course._03_Behavioral._10_State;
+// using DesignPatterns.Course._03_Behavioral._11_Memento;
 
 internal class Program
 {
@@ -210,6 +211,13 @@ internal class Program
 
         //var client = new Client();
         //client.ExecuteContext();
+
+        #endregion
+
+        #region Memento
+
+        //var executeVideo = new VCR();
+        //executeVideo.ExecuteVideoAction();
 
         #endregion
 
