@@ -3,15 +3,25 @@
 // using DesignPatterns.Course._01_Creation._03_Singleton;
 // using DesignPatterns.Course._01_Creation._04_Builder;
 // using DesignPatterns.Course._01_Creation._05_Prototype;
-// using DesignPatterns.Course._02_StructuralPatterns._01_Composite;
-// using DesignPatterns.Course._02_StructuralPatterns._02_Decorator;
-// using DesignPatterns.Course._02_StructuralPatterns._03_Facade;
-// using DesignPatterns.Course._02_StructuralPatterns._04_Proxy;
-// using DesignPatterns.Course._02_StructuralPatterns._05_Flyweight;
-// using DesignPatterns.Course._02_StructuralPatterns._06_Adapter;
-// using DesignPatterns.Course._02_StructuralPatterns._07_Bridge;
-// using DesignPatterns.Course._02_StructuralPatterns._07_Bridge.Abstractions;
-// using DesignPatterns.Course._02_StructuralPatterns._07_Bridge.Implementations;
+// using DesignPatterns.Course._02_Structural._01_Composite;
+// using DesignPatterns.Course._02_Structural._02_Decorator;
+// using DesignPatterns.Course._02_Structural._03_Facade;
+// using DesignPatterns.Course._02_Structural._04_Proxy;
+// using DesignPatterns.Course._02_Structural._05_Flyweight;
+// using DesignPatterns.Course._02_Structural._06_Adapter;
+// using DesignPatterns.Course._02_Structural._07_Bridge;
+// using DesignPatterns.Course._02_Structural._07_Bridge.Abstractions;
+// using DesignPatterns.Course._02_Structural._07_Bridge.Implementations;
+// using DesignPatterns.Course._03_Behavioral._01_TemplateMethod;
+// using DesignPatterns.Course._03_Behavioral._02_Interpreter.Jumanji;
+// using DesignPatterns.Course._03_Behavioral._03_Observer;
+// using DesignPatterns.Course._03_Behavioral._04_Visitor;
+// using DesignPatterns.Course._03_Behavioral._05_Command;
+// using DesignPatterns.Course._03_Behavioral._06_Strategy;
+// using DesignPatterns.Course._03_Behavioral._07_ChainOfResponsability;
+// using DesignPatterns.Course._03_Behavioral._08_Iterator;
+// using DesignPatterns.Course._03_Behavioral._10_State;
+// using DesignPatterns.Course._03_Behavioral._11_Memento;
 
 internal class Program
 {
@@ -138,6 +148,76 @@ internal class Program
         //        break;
         //    }
         //}
+
+        #endregion
+
+        #region Templat Method
+
+        //var client = new Client();
+        //client.ConsumeXmlEndpoint();
+
+        #endregion
+
+        #region Interpreter
+
+        //var popupDisplay = new PopupDisplay();
+        //popupDisplay.DisplaySkillsPopup();
+
+        #endregion
+
+        #region Observer
+
+        //var emailSender = new EmailSender();
+        //emailSender.SendEmails();
+
+        #endregion
+
+        #region Visitor
+
+        //var taxInspector = new TaxInspector();
+        //taxInspector.CalculateTaxes();
+
+        #endregion
+
+        #region Command
+
+        //var client = new Client();
+        //client.IssueCommands();
+
+        #endregion
+
+        #region Strategy
+
+        //var serviceTaxRoutine = new ServiceTaxRoutine();
+        //serviceTaxRoutine.ExecuteRoutine();
+
+        #endregion
+
+        #region Chain Of Responsability
+
+        //var sender = new Sender();
+        //sender.PerformCheckout();
+
+        #endregion
+
+        #region Iterator
+
+        //var client = new Client();
+        //client.ConsumeDataStructure();
+
+        #endregion
+
+        #region State
+
+        //var client = new Client();
+        //client.ExecuteContext();
+
+        #endregion
+
+        #region Memento
+
+        //var executeVideo = new VCR();
+        //executeVideo.ExecuteVideoAction();
 
         #endregion
 
