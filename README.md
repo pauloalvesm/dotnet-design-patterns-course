@@ -17,11 +17,52 @@ This project was developed using the following technologies:
   - `.NET 8`
   - `Console Application`
   - `C#`
+ 
+## 📘 Design patterns used
+
+### Creational
+
+- `Factory Method`
+- `Abstract Factory`
+- `Singleton`
+- `Builder`
+- `Prototype`
+
+### Structural
+
+- `Composite`
+- `Decorator`
+- `Facade`
+- `Proxy`
+- `Flyweight`
+- `Adapter`
+- `Bridge`
+
+### Behavioral
+
+- `Template Method`
+- `Interpreter`
+- `Observer`
+- `Visitor`
+- `Command`
+- `Strategy`
+- `Chain Of Responsability`
+- `Iterator`
+- `Mediator`
+- `State`
+- `Memento`
   
 ## 💾 Clone the repository
 
 ```bash
 git clone https://github.com/pauloalvesm/dotnet-design-patterns-course.git
+
+# Navigate to the project folder
+cd src/DesignPatterns.Course
+
+# Restore dependencies
+dotnet restore
+
 ```
 
 
